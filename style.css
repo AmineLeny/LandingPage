@@ -51,6 +51,7 @@ body{
 
 .subsec1{
     display:flex;
+    gap:100px;
 
     
 }
