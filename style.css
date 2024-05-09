@@ -99,16 +99,13 @@ body{
 }
 .img-placeholder{
     color:white;
-    background-color: grey;
     min-width: 280px;
-    flex:auto;
     display :flex;
     justify-content: center;
     align-items: center;
 }
-.img-placeholder p {
-    font-size: 18px;
-    font-weight: 320;
+.img-placeholder img {
+    min-width:600px;
 }
 .section2{
     display: flex;
