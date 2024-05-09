@@ -143,3 +143,31 @@ body{
     align-items: center;
     text-align: center;
 }
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 50px;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote h3{
+    align-self: flex-end;
+    color: #1F2937;
+}
+.quote p{
+    padding: 0;
+    margin:0;
+    margin-top: 50px;
+    width:600px;
+}
+.quote p em{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 320;
+    color: #1F2937;
+    
+}
