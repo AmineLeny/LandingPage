@@ -5,17 +5,23 @@
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
+    box-sizing: border-box;
 }
 
 body{
     margin:0;
     padding: 0;
 }
+
 .landing-page{
     display: flex;
     flex-direction: column;
+    height: 100vh; 
+    
 }
 .section1{
+
+    
     display: flex;
     flex-direction: column;
     gap:60px;
@@ -108,6 +114,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    flex-shrink: 1;
+
 }
 .section2 h2 {
     color: #1F2937;
@@ -118,19 +127,20 @@ body{
 }
 .text-image{
     display: flex;
-    gap:25px;
+    gap:45px;
+    padding: 90px;
 }
 .image-bd{
     border:3px solid;
     border-radius: 14px;
     border-color: #3882F6;
-    width: 120px;
-    height: 120px;
+    width: 220px;
+    height: 220px;
     flex:1 0 auto;
 }
 .text-image p {
-    width :100px;
-    font-size: 11px;
+    width :220px;
+    font-size: 23px;
     color: #1F2937;
     font-weight: 310;
     margin-top: 5px;
@@ -147,27 +157,79 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 50px;
+    padding: 40px;
     align-self: stretch;
     justify-content: center;
     align-items: center;
+    flex-shrink: 1;
 }
 
-.quote h3{
+.quote h2{
     align-self: flex-end;
     color: #1F2937;
+    font-size: 30px;
 }
 .quote p{
     padding: 0;
-    margin:0;
+    mcontainer-textargin:0;
     margin-top: 50px;
-    width:600px;
+    width:890px;
 }
 .quote p em{
     padding: 0;
     margin: 0;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 320;
     color: #1F2937;
     
+}
+.inside-quote{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.section3{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 1000px;
+    border-radius: 15px;
+    padding: 44px 110px;
+    margin:110px;
+    background-color: #3882F6;
+}
+.container-text{
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right : auto;
+    gap:3px;
+    padding: 25px;    
+}
+.container-text p ,.container-text h3{
+    margin: 0;
+    padding: 0;
+}
+.button-1{
+    width: 120px;
+    height:34px;
+    
+    border: 2px white solid;
+    border-radius: 5px;
+    background-color: #3882F6;
+    align-self: center;
+    
+}
+.footer-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 40px;
 }
